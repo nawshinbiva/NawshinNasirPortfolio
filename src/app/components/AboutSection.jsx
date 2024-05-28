@@ -27,7 +27,7 @@ const TAB_DATA = [
           <div className="font-bold">
             American International University-Bangladesh
           </div>
-          <p>Bachelor's Degree in Computer Science and Engineering</p>
+          <p>Bachelor&apos;s Degree in Computer Science and Engineering</p>
         </li>
         <li>
           <div className="font-bold">British Council</div>
@@ -46,7 +46,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2 font-bold">
         <li>CISCO IT Essentials</li>
-        <li>DEAN'S LIST HONORS</li>
+        <li>DEAN&apos;S LIST HONORS</li>
       </ul>
     ),
   },
@@ -70,6 +70,7 @@ const AboutSection = () => {
           src="/images/about-image.png"
           width={500}
           height={500}
+          alt="About Image"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 mt-20">About Me</h2>
